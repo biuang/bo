@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: "50 15 * * *" # run at 23:50 in China time
+    - cron: "50 13 * * *" # run at 23:50 in China time
   workflow_dispatch:
 
 jobs:
@@ -19,8 +19,8 @@ jobs:
         run: |
           # You should set your email and name here.
 
-          git config --global user.email "wzw15292257101@163.com"
-          git config --global user.name "dribble-njr"
+          git config --global user.email "116905722@qq.com"
+          git config --global user.name "bobo"
 
       - name: Get all repositories
         id: get-repos
